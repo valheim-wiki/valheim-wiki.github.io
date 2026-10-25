@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://valheim-wiki.github.io/sitemap.xml

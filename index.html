@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>TheValheimWiki field guide — maps, creature answers and planning</title>
+  <meta name="description" content="Find your next Valheim answer at thevalheim.wiki: explore your world, check creature weaknesses and drops, plan food and gear, and calculate building materials.">
+  <link rel="canonical" href="https://valheim-wiki.github.io/">
+  <link rel="alternate" hreflang="en" href="https://valheim-wiki.github.io/">
+  <link rel="alternate" hreflang="x-default" href="https://valheim-wiki.github.io/">
+  <link rel="icon" href="../assets/ui/map_marker.png" type="image/png">
+  <link rel="preload" href="../assets/fonts/norse-bold.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="../assets/fonts/averia-serif.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="prefetch" href="https://thevalheim.wiki/map">
+  <link rel="prefetch" href="https://thevalheim.wiki/guides/live-seed-map">
+  <link rel="prefetch" href="https://thevalheim.wiki/guides/mods-on-mac">
+  <link rel="stylesheet" href="./field-guide.css">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="TheValheimWiki: prepare for your next adventure">
+  <meta property="og:description" content="Find a destination, prepare for a fight and plan what to craft with the maps, game data and planners at thevalheim.wiki.">
+  <meta property="og:url" content="https://valheim-wiki.github.io/">
+  <meta property="og:image" content="https://valheim-wiki.github.io/assets/screenshots/nearest-search.webp">
+  <meta property="og:image:width" content="3200">
+  <meta property="og:image:height" content="1800">
+  <meta property="og:image:alt" content="Burial Chambers search results ordered by distance from a connected Valheim player">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://valheim-wiki.github.io/",
+        "name": "TheValheimWiki player field guide",
+        "url": "https://valheim-wiki.github.io/",
+        "inLanguage": "en",
+        "description": "Use thevalheim.wiki to explore a Valheim world, check creatures and recipes, and plan food, gear and building materials. Realtime Map from seed connects the running game to the site's map.",
+        "mainEntity": [
+          { "@id": "https://thevalheim.wiki/#website" },
+          { "@id": "https://valheim-wiki.github.io/#live-seed-map" }
+        ],
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "TheValheimWiki", "item": "https://thevalheim.wiki/" },
+            { "@type": "ListItem", "position": 2, "name": "Player field guide", "item": "https://valheim-wiki.github.io/" }
+          ]
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://valheim-wiki.github.io/#live-seed-map",
+        "name": "Realtime Map from seed",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Windows, macOS",
+        "softwareVersion": "1.5.1",
+        "url": "https://valheim-wiki.github.io/#live-seed-map",
+        "description": "Connect the running Valheim game to a browser map. Follow your position, search nearby places, see portal connections and track a map target in the game."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://thevalheim.wiki/#website",
+        "name": "TheValheimWiki",
+        "url": "https://thevalheim.wiki/",
+        "inLanguage": "en",
+        "description": "Valheim world maps, creature and item data, recipes, food and gear planning, and building material costs."
+      }
+    ]
+  }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTC3VK9LEK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-RTC3VK9LEK');
+  </script>
+  <script src="./field-guide.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="masthead">
+    <a class="wordmark" href="https://thevalheim.wiki/" data-prefetch><img src="../assets/ui/map_marker.png" width="21" height="32" alt="">thevalheim.wiki</a>
+    <nav aria-label="Main navigation">
+      <a href="#live-seed-map"><img src="../assets/ui/map_marker.png" width="21" height="32" alt="">In your world</a>
+      <a href="#mac-mods"><img src="../assets/ui/forge.png" width="64" height="64" alt="">On your Mac</a>
+      <a href="#installation"><img src="../assets/ui/forge.png" width="64" height="64" alt="">Prepare your trip</a>
+    </nav>
+  </header>
+
+  <main id="content" class="field-guide">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol><li><a href="https://thevalheim.wiki/" data-prefetch>TheValheimWiki</a></li><li aria-current="page">Player field guide</li></ol>
+    </nav>
+
+    <section class="opening" aria-labelledby="page-title">
+      <div class="opening-copy">
+        <h1 id="page-title">Find your next Valheim answer</h1>
+        <p>Where should you sail? What will that creature drop? What should you craft next? The maps, game data and planners at thevalheim.wiki help you prepare before you leave camp.</p>
+      </div>
+      <nav class="choose-tool" aria-label="Choose a Valheim resource">
+        <a href="https://thevalheim.wiki/" data-prefetch>
+          <img src="../assets/ui/map_marker.png" width="21" height="32" alt="">
+          <span>Look up creatures, items and recipes</span>
+          <span class="choice-name">Open TheValheimWiki</span>
+        </a>
+        <a href="#live-seed-map">
+          <img src="../assets/ui/forge.png" width="64" height="64" alt="">
+          <span>Follow the world you are playing</span>
+          <span class="choice-name">See Realtime Map from seed</span>
+        </a>
+      </nav>
+    </section>
+
+    <section id="live-seed-map" class="tool-page" aria-labelledby="live-title">
+      <header class="tool-heading">
+        <img src="../assets/ui/map_marker.png" width="21" height="32" alt="">
+        <h2 id="live-title">Realtime Map from seed</h2>
+      </header>
+      <div class="workbench">
+        <div class="tool-copy">
+          <p class="recommendation">Bring your running Valheim world to our browser map.</p>
+          <dl class="field-notes">
+            <div><dt>Keep your bearings</dt><dd>Follow your position and heading on the map while you play.</dd></div>
+            <div><dt>Make the next trip count</dt><dd>Search from where you stand. Nearby places come first, ordered by distance.</dd></div>
+            <div><dt>Bring a destination back</dt><dd>Pick a place, resource, portal or pin. Track it with a personal in-game ping and its distance.</dd></div>
+          </dl>
+          <div class="actions">
+            <a class="button" href="https://thevalheim.wiki/map" data-prefetch>Open the map</a>
+            <button class="quiet-link" type="button" data-external="https://github.com/valheim-wiki/live-seed-map/releases/download/v1.5.1/LiveSeedMap-1.5.1.zip" data-site="GitHub">Download Realtime Map from seed</button>
+          </div>
+          <div class="supporting-links">
+            <a href="https://thevalheim.wiki/guides/live-seed-map" data-prefetch>Installation and settings</a>
+            <button type="button" data-external="https://github.com/valheim-wiki/live-seed-map" data-site="GitHub">Source on GitHub</button>
+          </div>
+        </div>
+        <figure class="field-image">
+          <a href="../assets/screenshots/nearest-search.webp" aria-label="Open the full Burial Chambers search image">
+            <img src="../assets/screenshots/nearest-search.webp" srcset="../assets/screenshots/nearest-search-768.webp 768w, ../assets/screenshots/nearest-search.webp 3200w" sizes="(min-width: 70rem) 37rem, 90vw" width="3200" height="1800" alt="Burial Chambers search results ordered by distance from the connected player" fetchpriority="high" decoding="async">
+          </a>
+          <figcaption>Burial Chambers, ordered from the player’s current position.</figcaption>
+        </figure>
+      </div>
+      <div class="practical-notes">
+        <p>Portal connections are on the map too: select a pair to see both ends.</p>
+        <p>Nearby creatures include their stars, within the area your game has loaded. Other players appear when they share their position.</p>
+      </div>
+    </section>
+
+    <section id="mac-mods" class="tool-page" aria-labelledby="mac-title">
+      <header class="tool-heading">
+        <img src="../assets/ui/forge.png" width="64" height="64" alt="">
+        <h2 id="mac-title">Mac setup</h2>
+      </header>
+      <div class="workbench mac-workbench">
+        <figure class="field-image mac-image">
+          <a href="../assets/screenshots/macos-modded.webp" aria-label="Open the full Valheim macOS image">
+            <img src="../assets/screenshots/macos-modded.webp" srcset="../assets/screenshots/macos-modded-768.webp 768w, ../assets/screenshots/macos-modded.webp 1400w" sizes="(min-width: 70rem) 31rem, 90vw" width="1400" height="903" alt="Valheim’s main menu on macOS with the modded-version notice" loading="lazy" decoding="async">
+          </a>
+          <figcaption>Valheim running with mods on macOS.</figcaption>
+        </figure>
+        <div class="tool-copy">
+          <p class="recommendation">Use thevalheim.wiki beside your game on Apple Silicon.</p>
+          <p>Our Mac guide takes you from installing the required BepInEx 5 loader to adding Realtime Map from seed and connecting your game to our map.</p>
+          <p>Follow the Steam launch steps, enter your world and choose Connect game on the map. Start with the guide when setting this up for the first time.</p>
+          <div class="actions">
+            <a class="button" href="https://thevalheim.wiki/guides/mods-on-mac" data-prefetch>Set up Realtime Map from seed on Mac</a>
+            <a class="quiet-link" href="https://thevalheim.wiki/downloads/BepInEx_macos_valheim_5.4.23.5-01fd4aa.zip">Required Mac loader (preview)</a>
+          </div>
+          <div class="release-note">
+            <img src="../assets/ui/warning_icon.png" width="64" height="64" alt="">
+            <p>Mac setup is a preview. This download still needs its full installation check; Intel Macs have not been verified.</p>
+          </div>
+          <div class="supporting-links">
+            <button type="button" data-external="https://github.com/valheim-wiki/bepinex-macos" data-site="GitHub">Mac setup source</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="installation" class="installation" aria-labelledby="install-title">
+      <h2 id="install-title">Prepare before you leave camp</h2>
+      <ol class="installation-steps">
+        <li>
+          <h3>Know what you will fight</h3>
+          <p>Check attacks, damage types and star levels before choosing a weapon. The <a href="https://thevalheim.wiki/creatures/troll" data-prefetch>Valheim Troll guide</a> brings its weaknesses and drops together.</p>
+        </li>
+        <li>
+          <h3>Choose food and gear together</h3>
+          <p>Try equipment quality and three foods before spending materials. The <a href="https://thevalheim.wiki/planner" data-prefetch>Valheim food and gear planner</a> shows the combined health, stamina and armour of your choices.</p>
+        </li>
+        <li>
+          <h3>Gather for the whole build</h3>
+          <p>Add the pieces and quantities you want to make. The <a href="https://thevalheim.wiki/build-cost" data-prefetch>Valheim build cost calculator</a> combines their materials into one gathering list.</p>
+        </li>
+      </ol>
+      <p class="same-computer">Open thevalheim.wiki for the map, game answers and plans you need for your next session.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="https://thevalheim.wiki/" data-prefetch>thevalheim.wiki</a>
+    <nav aria-label="More Valheim resources">
+      <a href="https://thevalheim.wiki/map" data-prefetch>World map</a>
+      <a href="https://thevalheim.wiki/guides" data-prefetch>Guides</a>
+      <a href="https://vote.thevalheim.wiki" data-prefetch>Feedback</a>
+    </nav>
+  </footer>
+</body>
+</html>
